@@ -9,8 +9,7 @@ triggers {
 environment {
     IMAGE_NAME = "Flask App CI/CD Pipeline with Jenkins and Docker"
     CONTAINER_NAME = "Flask App CI/CD Pipeline with Jenkins and Docker-container"
-    DOCKER = "/usr/local/bin/docker"
-    PATH = "/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin"
+    DOCKER = "docker"
     REPO_URL = "https://github.com/DVijay07/Flask-App-CI-CD-Pipeline-with-Jenkins-and-Docker.git"
 }
 
