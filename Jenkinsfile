@@ -44,7 +44,7 @@ stages {
 
     stage('Run Container') {
         steps {
-            sh '$DOCKER run -d -p 8081:8080 --name $CONTAINER_NAME $IMAGE_NAME'
+            sh '$DOCKER run -d -p 8085:5000 --name $CONTAINER_NAME $IMAGE_NAME'
         }
     }
 
